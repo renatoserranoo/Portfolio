@@ -12,6 +12,15 @@ header {
     z-index: 100;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #1b1b1b;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #535bf2;
+    border-radius: 5px;
+}   
+
 .navbar {
   justify-content: center;
   padding: 0 15%;
@@ -202,12 +211,14 @@ a:hover {
 }
 
 h2 {
+    font-weight: 350;
     font-size: 45px;
     color: white;
     margin-bottom: 0;
 }
 
 .sobre-mim{
+    font-weight: 350;
     display: flex;
     flex-direction: column;
     justify-content: center;
