@@ -2,7 +2,9 @@ body{
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     margin: 0;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 header {
     position: fixed;
     width: 100%;
@@ -85,12 +87,12 @@ a:hover {
     display: flex;
     align-items: center;
 }
+
 .ajuste-largura{
     width: 100%;
 }
 
 .ajustador {
-    flex-direction: row;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -260,8 +262,10 @@ h2 {
 }
 
 .portfolio {
-    background-image: url();
     background-size: cover;
+}
+.portfolio img{
+    height: 195px;
 }
 
 .projetos {
@@ -376,15 +380,14 @@ button:hover {
 
 
 footer {
-  justify-content: center;
-  padding: 0 15%;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  background-color: #1d1d1d;
-  border-bottom: 2px solid #272727;
-  font-weight: bold;
-  height: 80px;
-  transition: 0.3s;
-  box-shadow: 0 4px 4px rgba(0,0,0,.3);
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 15%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background-color: #272727;
+    font-weight: bold;
+    height: 80px;
 }
