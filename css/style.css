@@ -418,7 +418,7 @@ footer {
     .navbar {
         width: 100%;
         justify-content: center;
-        padding-top: 10px;
+        padding: 0;
     }
     .navbar p{
         margin-inline: 3%;
